@@ -1,0 +1,26 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  .grid-item {
+    background-color: #FFF;
+    padding: 20px;
+    border: 1px #DDD solid;
+    display: flex;
+    dl {
+      flex: 1;
+      margin: 0 0 0 10px;
+      dt {
+        display: flex;
+        font-size: 20px;
+        justify-content: space-between;
+      }
+      .dd {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+
